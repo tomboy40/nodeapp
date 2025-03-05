@@ -1,9 +1,9 @@
 
-var port = parseInt(process.env['APP_PORT'] || '8082');
-var appName = process.env['APP_NAME'] || 'myapp';
+var port = parseInt(process.env.APP_PORT || '8082');
+var appName = process.env.APP_NAME || 'myapp';
 
-console.log('APP_DATA:', process.env['APP_DATA'])
-console.log('TEMP:', process.env['TEMP'])
+console.log('APP_DATA:', process.env.APP_DATA)
+console.log('TEMP:', process.env.TEMP)
 
 
 var express = require('express');
