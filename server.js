@@ -11,4 +11,4 @@ app.get('/' + appName, function(req, res) {
 
 app.listen(port, 'localhost', function() {
   console.log('Service started at http://localhost:' + port + '/' + appName + '/');
-};
+});
